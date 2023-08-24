@@ -5,12 +5,19 @@
 Purpose: scrapes data from https://agcensus.dacnet.nic.in/tehsilsummarytype.aspx with the following details: 
 
 State: all states
+
 District: all districts
+
 Tehsil: all tehsils
+
 Tables: Number and area of operation holdings by size groups
+
 Social group: all social groups 
+
 Gender:  Total
+
 Table Unit: Number
+
 
 High level explanation: Loops through all states, districts, tehsils and submits the form on the website; fetches the resulting table as a csv file and downloads it to dropbox 
 
@@ -29,10 +36,14 @@ Refer to requirements.txt for necessary python libraries/installments; refer to 
 3. Create a directory called state_trackers; each time an attempt is unsuccessful, it will be document in a file called <STATE>_unsucsessful.txt in state_trackers; you do not have to populate state_trackers with anything before running the code
 4. No need to change the directory called trackers
 5. Create a file called last_done.txt and input the first configuration in the form
+   
 YEAR
 STATE
+
 DISTRICT
+
 TEHSIL; 
+
 This file updates each iteration with the details of the most recently scraped table; if the code terminates unexpectedly, it will re-run and start from the year, state, district and tehsil listed in last_done.txt 
 
 ### To run: python3 loop.py (command line)
