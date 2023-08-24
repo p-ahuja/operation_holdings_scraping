@@ -20,7 +20,8 @@ Purpose: includes three helper functions
 
 ### Other files are either (1) unspecific to the website or (2) not imported in the main file, loop.py, so unused
 
-### Requirements: refer to requirements.txt for necessary python libraries/installments; refer to the import statements in loop.py to understand while files are unused 
+### Requirements
+Refer to requirements.txt for necessary python libraries/installments; refer to the import statements in loop.py to understand while files are unused 
 
 ### Before you run: 
 1. Create a directory called log_files and, inside it, a file called log_number.txt where the first line says 1; each time the code runs, a new log file will be created in log_files and the number in log_number.txt will be incremented
@@ -34,7 +35,7 @@ DISTRICT
 TEHSIL; 
 This file updates each iteration with the details of the most recently scraped table; if the code terminates unexpectedly, it will re-run and start from the year, state, district and tehsil listed in last_done.txt 
 
-### To run: python3 loop.py 
+### To run: python3 loop.py (command line)
 
 ### Dropbox folders for this data: 
 
