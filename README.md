@@ -38,6 +38,7 @@ Refer to requirements.txt for necessary python libraries/installments; refer to 
 5. Create a file called last_done.txt and input the first configuration in the form
    
 YEAR
+
 STATE
 
 DISTRICT
